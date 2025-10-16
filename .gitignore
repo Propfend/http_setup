@@ -1,0 +1,7 @@
+/.envrc
+/.direnv
+/target
+/node_modules
+/static
+/esbuild-meta.json
+/tsconfig.tsbuildinfo

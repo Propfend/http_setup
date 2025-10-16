@@ -1,0 +1,17 @@
+:root {
+    --font-fallback: 'Bitcount Single Ink';
+    --font-main: 'monospace';
+    --font-size: 20px;
+
+    --dark-mode-background-color: rgb(25, 26, 28);
+    --dark-mode-content-color: #8abcbe;
+    --dark-mode-content-background-color: #1E2C39;  
+    
+    --light-mode-background-color: rgb(247, 245, 225);
+    --light-mode-content-background-color: rgb(179, 176, 175);
+    --light-mode-content-color: black;
+
+    --navbar--link--color: white;
+    --navbar--active--link--background--color: rgb(163, 36, 163);
+    --navbar--link--background--color: rgb(30, 43, 56);
+}

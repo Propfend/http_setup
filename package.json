@@ -1,0 +1,73 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "My website and blog",
+  "repository": {
+    "type": "git",
+    "url": "website"
+  },
+  "author": "Propfend",
+  "license": "Apache-2.0",
+  "ava": {
+    "extensions": {
+      "ts": "module"
+    },
+    "nodeArguments": [
+      "--import=tsimp"
+    ]
+  },
+  "dependencies": {
+    "@mdx-js/esbuild": "^3.1.1",
+    "@mdx-js/loader": "^3.1.1",
+    "@mdx-js/mdx": "^3.1.1",
+    "@mdx-js/react": "^3.1.1",
+    "@shikijs/rehype": "^3.13.0",
+    "@wooorm/starry-night": "^3.8.0",
+    "clsx": "^2.1.1",
+    "highlight.js": "^11.11.1",
+    "jarmuz": "^0.8.0",
+    "nanoid": "^5.1.5",
+    "prism-react-renderer": "^2.4.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-markdown": "^10.1.0",
+    "react-syntax-highlighter": "^15.6.6",
+    "rehype-highlight": "^7.0.2",
+    "rehype-slug": "^6.0.0",
+    "rehype-starry-night": "^2.2.0",
+    "remark-api": "^1.1.0",
+    "remark-gfm": "^4.0.1",
+    "remark-highlight.js": "^7.0.1",
+    "remark-mdx": "^3.1.1",
+    "remark-slug": "^7.0.1",
+    "shiki": "^3.13.0",
+    "wouter": "^3.7.1"
+  },
+  "devDependencies": {
+    "@types/hotwired__turbo": "^8",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "ava": "^6.4.1",
+    "esbuild": "^0.25.8",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "fs-extra": "^11.3.1",
+    "glob": "^11.0.3",
+    "jarmuz": "^0.4.0",
+    "lodash": "^4.17.21",
+    "node-notifier": "^10.0.1",
+    "path-to-regexp": "^1.7.0",
+    "prettier": "^3.6.2",
+    "prettier-plugin-organize-imports": "^4.2.0",
+    "stylelint": "^16.23.1",
+    "stylelint-config-recommended": "^17.0.0",
+    "tempy": "^3.1.0",
+    "tsimp": "^2.0.12",
+    "tslib": "^2.8.1",
+    "typed-css-modules": "^0.9.1",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.39.1"
+  },
+  "type": "module"
+}

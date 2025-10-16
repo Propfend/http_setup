@@ -1,0 +1,6 @@
+@import url("./_reset.css") layer(index.reset);
+@import url("./_fonts.css") layer(index.reset);
+@import url("./_root.css") layer(index.root);
+@import url("./_variables.css") layer(index.vars);
+
+@layer index.reset, index.root, index.vars;
