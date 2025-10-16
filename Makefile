@@ -19,7 +19,7 @@ node_modules: package-lock.json
 clean:
 	rm -rf esbuild-meta.json
 	rm -rf node_modules
-	rm -rf static/*
+	rm -rf static
 	rm -rf target
 
 esbuild: node_modules
